@@ -14,6 +14,8 @@ import java.util.regex.Pattern;
  * This class allows to extract different kind of object from a string and returns an arraylist with
  * the finded objects. First of all the class must be initialized with the object you want to extract.
  * You can extract telephone numbers, e-mails and URLs
+ * If the extract function returns null in case of wrong initialization or in case of no objects are finded
+ * @autor Giuliano Tortoreto
  */
 public class Extractor {
     private String country ="";
