@@ -41,11 +41,11 @@ public class Extractor {
     }
 
     /**
-     * Accordingly to the given parameter, the created object will extract e-mails,urls or telephone numbers from a given country whit a minimum length
+     * Depending on the given parameter, the created object will extract e-mails,urls or telephone numbers from a given country whit a minimum length
      * @param minlunghezzaNumero optional, this variable allows to choose which is the smallest telephone number accepted
      * @param operazione this parameter is essential to choose what kind of object the function extract will return
      *        Accepted value for operazione are: "E-mails", "numbers", "URLs", otherwise the extract function returns null
-     * @param countryCode the extract function will return telephone numbers from different country according to the given country code
+     * @param countryCode the extract function will return telephone numbers from different country depending on the given country code
      *                   e.g "IT","EN","DE",etc...
      */
     public Extractor(String operazione, int minlunghezzaNumero, String countryCode) {
@@ -56,10 +56,10 @@ public class Extractor {
     }
 
     /**
-     * Accordingly to the given parameter, the created object will extract e-mails,urls or telephone numbers
+     * Depending on the given parameter, the created object will extract e-mails,urls or telephone numbers
      * @param operazione this parameter is essential to choose what kind of object the function extract will return
      *        Accepted value for operazione are: "E-mails", "numbers", "URLs", otherwise the extract function returns null
-     * @param countryCode the extract function will return telephone numbers from different country according to the given country code
+     * @param countryCode the extract function will return telephone numbers from different country depending on the given country code
      *                   e.g "IT","EN","DE",etc...
      */
     public Extractor(String operazione, String countryCode) {
@@ -68,10 +68,10 @@ public class Extractor {
     }
 
     /**
-     * Accordingly to the given parameter, the created object will extract e-mails,urls or telephone numbers
+     * Depending on the given parameter, the created object will extract e-mails,urls or telephone numbers
      * @param operazione this parameter is essential to choose what kind of object the function extract will return
      *        Accepted value for operazione are: "E-mails", "numbers", "URLs", otherwise the extract function returns null
-     * @param prefisso the extract function will return telephone numbers from different country according to the given dial code without '+'
+     * @param prefisso the extract function will return telephone numbers from different country depending on the given dial code without '+'
      *                   e.g "39","44","1",etc...
      */
     public Extractor(String operazione, Integer prefisso) {
@@ -92,7 +92,7 @@ public class Extractor {
     }
 
     /**
-     * Accordingly to the given parameter, the created object will extract e-mails,urls or telephone numbers
+     * Depending on the given parameter, the created object will extract e-mails,urls or telephone numbers
      * Accepted value for operazione are:"numbers","E-mails","URLs", otherwise the function extract won't work
      * @param operazione this parameter is essential to choose what kind of object the function extract will return for e-mails: "E-mails", for telephone numbers:"numbers" and for URLs:"URLs"
      */
@@ -102,7 +102,7 @@ public class Extractor {
     }
 
     /**
-     * This function choose which function to call according to the chosen operation
+     * This function choose which function to call depending on the chosen operation
      * @param text the given text to check
      * @return  an object containing the list of the found object
      */
@@ -207,7 +207,7 @@ public class Extractor {
     }
 
     /**
-     * First of all this function checks if the dial_code is correct according to the country we are looking for,
+     * First of all this function checks if the dial_code is correct depending on the country we are looking for,
      * after that it calls checkPrefix for area code checking and things like that
      * nb. for it works online for italian numbers
      * @param number is the number to verify
