@@ -1,3 +1,5 @@
+package gTortoreto;
+
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -271,10 +273,10 @@ public class OperazioneTest {
         Operazione opNumbers = new Operazione("numbers");
         
         ArrayList<String> numbers = opNumbers.extract(testo);
-        //assert(numbers.size()>0);
+        assert(numbers.size()>0);
 
         for (String value : numbers) {
-           System.out.print(value);
+          // System.out.print(value);
             assert(value.equals("0464/454154-108")||
                     value.equals("+34 349.566.9229")||
                     value.equals("939-4959-691")||
@@ -283,7 +285,7 @@ public class OperazioneTest {
                     value.equals(" 934567890") ||
                     value.equals("2324.234 5 2")
             );
-         System.out.print(" ACCEPTED\n");
+         // System.out.print(" ACCEPTED\n");
         }
     }
 
@@ -434,7 +436,7 @@ public class OperazioneTest {
             // System.out.print(value);
             assert( value.equals("45592") ||
             value.equals("48118"));
-            System.out.print("ACCEPTED\n");
+           // System.out.print("ACCEPTED\n");
         }
 
     }

@@ -64,80 +64,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".project" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/OpenRefine/.project">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="25" column="20" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="846">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Operazione.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Operazione.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gTortoreto/Operazione.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="59" selection-start="3178" selection-end="3178" vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1314">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;method#Operazione#0;class#Operazione#0" expanded="false" />
-                <element signature="method#Operazione#0;class#Operazione#0" expanded="false" />
-                <element signature="docComment;method#Operazione#1;class#Operazione#0" expanded="false" />
-                <element signature="method#Operazione#1;class#Operazione#0" expanded="false" />
-                <element signature="docComment;method#Operazione#2;class#Operazione#0" expanded="false" />
-                <element signature="method#Operazione#2;class#Operazione#0" expanded="false" />
-                <element signature="docComment;method#prefixToCountryCode#0;class#Operazione#0" expanded="false" />
-                <element signature="method#prefixToCountryCode#0;class#Operazione#0" expanded="false" />
-                <element signature="docComment;method#Operazione#3;class#Operazione#0" expanded="false" />
-                <element signature="method#Operazione#3;class#Operazione#0" expanded="false" />
-                <element signature="docComment;method#extract#0;class#Operazione#0" expanded="false" />
-                <element signature="method#extract#0;class#Operazione#0" expanded="false" />
-                <element signature="docComment;method#getSites#0;class#Operazione#0" expanded="false" />
-                <element signature="method#getSites#0;class#Operazione#0" expanded="false" />
-                <element signature="e#5222#5230#0" expanded="true" />
-                <element signature="docComment;method#cleanSite#0;class#Operazione#0" expanded="false" />
-                <element signature="method#cleanSite#0;class#Operazione#0" expanded="false" />
-                <element signature="docComment;method#getNumbers#0;class#Operazione#0" expanded="false" />
-                <element signature="method#getNumbers#0;class#Operazione#0" expanded="false" />
-                <element signature="e#6341#6349#0" expanded="true" />
-                <element signature="e#6426#6483#0" expanded="false" />
-                <element signature="e#6610#6720#0" expanded="false" />
-                <element signature="docComment;method#isRightCountry#0;class#Operazione#0" expanded="false" />
-                <element signature="method#isRightCountry#0;class#Operazione#0" expanded="false" />
-                <element signature="docComment;method#checkPrefixForCountries#0;class#Operazione#0" expanded="false" />
-                <element signature="method#checkPrefixForCountries#0;class#Operazione#0" expanded="false" />
-                <element signature="docComment;method#cleanNumber#0;class#Operazione#0" expanded="false" />
-                <element signature="method#cleanNumber#0;class#Operazione#0" expanded="false" />
-                <element signature="docComment;method#getEmails#0;class#Operazione#0" expanded="false" />
-                <element signature="method#getEmails#0;class#Operazione#0" expanded="false" />
-                <element signature="e#12575#12583#0" expanded="true" />
-              </folding>
+            <state line="2" column="35" selection-start="28" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6426">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="OperazioneTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/OperazioneTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/gTortoreto/OperazioneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.43548387" vertical-offset="0" max-vertical-offset="7632">
+            <state line="288" column="9" selection-start="10854" selection-end="10854" vertical-scroll-proportion="0.64285713" vertical-offset="4896" max-vertical-offset="8028">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;method#testExtractSimpleMail#0;class#OperazioneTest#0" expanded="false" />
-                <element signature="method#testExtractSimpleMail#0;class#OperazioneTest#0" expanded="false" />
-                <element signature="docComment;method#testExtractNumero199Apagamento#0;class#OperazioneTest#0" expanded="false" />
-                <element signature="method#testExtractNumero199Apagamento#0;class#OperazioneTest#0" expanded="false" />
-                <element signature="docComment;method#testExtractNumeriServizi#0;class#OperazioneTest#0" expanded="false" />
+                <element signature="method#testExtractNumeriServizi#0;class#OperazioneTest#0" expanded="false" />
                 <element signature="docComment;method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
                 <element signature="method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
-                <element signature="docComment;method#testExtractURLwithSymbols#0;class#OperazioneTest#0" expanded="false" />
                 <element signature="method#testExtractURLwithSymbols#0;class#OperazioneTest#0" expanded="false" />
               </folding>
             </state>
@@ -158,14 +110,266 @@
         <option value="$PROJECT_DIR$/ExtracTU.iml" />
         <option value="$PROJECT_DIR$/src/test/java/OperazioneTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Operazione.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/gTortoreto/OperazioneTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1303" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
+            <id>ActionScript specificJavaScript</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Application Server Specific Inspections</id>
+          </State>
+          <State>
+            <id>Assignment issues</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>Class metrics</id>
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Code maturity issues</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Compiler issues</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Cucumber Java</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Encapsulation issues</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>Finalization issues</id>
+          </State>
+          <State>
+            <id>GPath inspectionsGroovy</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>Imports</id>
+          </State>
+          <State>
+            <id>Inheritance issues</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>J2ME issues</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Java language level issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>JavaBeans issues</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>Language Injection</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Memory issues</id>
+          </State>
+          <State>
+            <id>Method metrics</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Numeric issues</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>RESTful Web Service</id>
+          </State>
+          <State>
+            <id>Resource management issues</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+          <State>
+            <id>Serialization issues</id>
+          </State>
+          <State>
+            <id>Spring Model</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>StyleGroovy</id>
+          </State>
+          <State>
+            <id>TestNG</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Visibility issues</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -195,7 +399,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,30 +431,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extraCT-noplug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExtracTU" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -279,7 +461,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
+    <property name="options.lastSelected" value="MavenSettings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -291,17 +473,22 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="gTortoreto" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.testOperazione">
+  <component name="RunManager" selected="Maven.extraCTU">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -649,8 +836,8 @@
       <module name="ExtracTU" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OperazioneTest" />
+      <option name="PACKAGE_NAME" value="gTortoreto" />
+      <option name="MAIN_CLASS_NAME" value="gTortoreto.OperazioneTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -673,8 +860,40 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="extraCTU" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mvn" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method>
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="compile" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="test" />
+      </method>
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.testOperazione" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.extraCTU" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -691,43 +910,74 @@
       <workItem from="1394103203844" duration="552000" />
       <workItem from="1394104183951" duration="1226000" />
       <workItem from="1394111862257" duration="5943000" />
+      <workItem from="1394192430014" duration="771000" />
+      <workItem from="1394195528516" duration="3976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7856000" />
+    <option name="totallyTimeSpent" value="12603000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.4996016" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990307" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5003984" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990307" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -750,73 +1000,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/OpenRefine/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+        <state line="3" column="89" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Operazione.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gTortoreto/Operazione.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="35" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="2214">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#Operazione#0;class#Operazione#0" expanded="false" />
-            <element signature="method#Operazione#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#Operazione#1;class#Operazione#0" expanded="false" />
-            <element signature="method#Operazione#1;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#Operazione#2;class#Operazione#0" expanded="false" />
-            <element signature="method#Operazione#2;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#prefixToCountryCode#0;class#Operazione#0" expanded="false" />
-            <element signature="method#prefixToCountryCode#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#Operazione#3;class#Operazione#0" expanded="false" />
-            <element signature="method#Operazione#3;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#extract#0;class#Operazione#0" expanded="false" />
-            <element signature="method#extract#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#getSites#0;class#Operazione#0" expanded="false" />
-            <element signature="method#getSites#0;class#Operazione#0" expanded="false" />
-            <element signature="e#5222#5230#0" expanded="true" />
-            <element signature="docComment;method#cleanSite#0;class#Operazione#0" expanded="false" />
-            <element signature="method#cleanSite#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#getNumbers#0;class#Operazione#0" expanded="false" />
-            <element signature="method#getNumbers#0;class#Operazione#0" expanded="false" />
-            <element signature="e#6341#6349#0" expanded="true" />
-            <element signature="e#6426#6483#0" expanded="false" />
-            <element signature="e#6610#6720#0" expanded="false" />
-            <element signature="docComment;method#isRightCountry#0;class#Operazione#0" expanded="false" />
-            <element signature="method#isRightCountry#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#checkPrefixForCountries#0;class#Operazione#0" expanded="false" />
-            <element signature="method#checkPrefixForCountries#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#cleanNumber#0;class#Operazione#0" expanded="false" />
-            <element signature="method#cleanNumber#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#getEmails#0;class#Operazione#0" expanded="false" />
-            <element signature="method#getEmails#0;class#Operazione#0" expanded="false" />
-            <element signature="e#12575#12583#0" expanded="true" />
-          </folding>
+        <state line="68" column="59" selection-start="3178" selection-end="3178" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="6534">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/OperazioneTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/gTortoreto/OperazioneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="9" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="9054">
+        <state line="9" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="9054">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#testExtractSimpleMail#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="method#testExtractSimpleMail#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="docComment;method#testExtractNumero199Apagamento#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="method#testExtractNumero199Apagamento#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="docComment;method#testExtractNumeriServizi#0;class#OperazioneTest#0" expanded="false" />
+            <element signature="method#testExtractNumeriServizi#0;class#OperazioneTest#0" expanded="false" />
             <element signature="docComment;method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
             <element signature="method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="docComment;method#testExtractURLwithSymbols#0;class#OperazioneTest#0" expanded="false" />
             <element signature="method#testExtractURLwithSymbols#0;class#OperazioneTest#0" expanded="false" />
           </folding>
         </state>
@@ -824,9 +1028,7 @@
     </entry>
     <entry file="file://$USER_HOME$/OpenRefine/.project">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -836,63 +1038,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Operazione.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gTortoreto/Operazione.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="64" selection-start="2908" selection-end="2908" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="2214">
+        <state line="68" column="59" selection-start="3178" selection-end="3178" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="6534">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gTortoreto/OperazioneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="7632">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#Operazione#0;class#Operazione#0" expanded="false" />
-            <element signature="method#Operazione#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#Operazione#1;class#Operazione#0" expanded="false" />
-            <element signature="method#Operazione#1;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#Operazione#2;class#Operazione#0" expanded="false" />
-            <element signature="method#Operazione#2;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#prefixToCountryCode#0;class#Operazione#0" expanded="false" />
-            <element signature="method#prefixToCountryCode#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#Operazione#3;class#Operazione#0" expanded="false" />
-            <element signature="method#Operazione#3;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#extract#0;class#Operazione#0" expanded="false" />
-            <element signature="method#extract#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#getSites#0;class#Operazione#0" expanded="false" />
-            <element signature="method#getSites#0;class#Operazione#0" expanded="false" />
-            <element signature="e#5222#5230#0" expanded="true" />
-            <element signature="docComment;method#cleanSite#0;class#Operazione#0" expanded="false" />
-            <element signature="method#cleanSite#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#getNumbers#0;class#Operazione#0" expanded="false" />
-            <element signature="method#getNumbers#0;class#Operazione#0" expanded="false" />
-            <element signature="e#6341#6349#0" expanded="true" />
-            <element signature="e#6426#6483#0" expanded="false" />
-            <element signature="e#6610#6720#0" expanded="false" />
-            <element signature="docComment;method#isRightCountry#0;class#Operazione#0" expanded="false" />
-            <element signature="method#isRightCountry#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#checkPrefixForCountries#0;class#Operazione#0" expanded="false" />
-            <element signature="method#checkPrefixForCountries#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#cleanNumber#0;class#Operazione#0" expanded="false" />
-            <element signature="method#cleanNumber#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#getEmails#0;class#Operazione#0" expanded="false" />
-            <element signature="method#getEmails#0;class#Operazione#0" expanded="false" />
-            <element signature="e#12575#12583#0" expanded="true" />
+            <element signature="method#testExtractNumeriServizi#0;class#OperazioneTest#0" expanded="false" />
+            <element signature="docComment;method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
+            <element signature="method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
+            <element signature="method#testExtractURLwithSymbols#0;class#OperazioneTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/OpenRefine/.project">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/OpenRefine/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExtracTU.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="720" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -900,68 +1067,89 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gTortoreto/Operazione.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="35" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="2214">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gTortoreto/OperazioneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="9" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="9054">
+          <folding>
+            <element signature="method#testExtractNumeriServizi#0;class#OperazioneTest#0" expanded="false" />
+            <element signature="docComment;method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
+            <element signature="method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
+            <element signature="method#testExtractURLwithSymbols#0;class#OperazioneTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OpenRefine/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gTortoreto/Operazione.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="64" selection-start="2908" selection-end="2908" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="2214">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OpenRefine/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522" />
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/String.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="28" selection-start="5842" selection-end="5842" vertical-scroll-proportion="0.0" vertical-offset="2519" max-vertical-offset="3978">
+        <state line="147" column="28" selection-start="5842" selection-end="5842" vertical-scroll-proportion="0.0" vertical-offset="2519" max-vertical-offset="3978" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OpenRefine/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExtracTU.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="558" selection-end="558" vertical-scroll-proportion="0.045918368" vertical-offset="126" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Operazione.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gTortoreto/Operazione.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="59" selection-start="3178" selection-end="3178" vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1314">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#Operazione#0;class#Operazione#0" expanded="false" />
-            <element signature="method#Operazione#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#Operazione#1;class#Operazione#0" expanded="false" />
-            <element signature="method#Operazione#1;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#Operazione#2;class#Operazione#0" expanded="false" />
-            <element signature="method#Operazione#2;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#prefixToCountryCode#0;class#Operazione#0" expanded="false" />
-            <element signature="method#prefixToCountryCode#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#Operazione#3;class#Operazione#0" expanded="false" />
-            <element signature="method#Operazione#3;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#extract#0;class#Operazione#0" expanded="false" />
-            <element signature="method#extract#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#getSites#0;class#Operazione#0" expanded="false" />
-            <element signature="method#getSites#0;class#Operazione#0" expanded="false" />
-            <element signature="e#5222#5230#0" expanded="true" />
-            <element signature="docComment;method#cleanSite#0;class#Operazione#0" expanded="false" />
-            <element signature="method#cleanSite#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#getNumbers#0;class#Operazione#0" expanded="false" />
-            <element signature="method#getNumbers#0;class#Operazione#0" expanded="false" />
-            <element signature="e#6341#6349#0" expanded="true" />
-            <element signature="e#6426#6483#0" expanded="false" />
-            <element signature="e#6610#6720#0" expanded="false" />
-            <element signature="docComment;method#isRightCountry#0;class#Operazione#0" expanded="false" />
-            <element signature="method#isRightCountry#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#checkPrefixForCountries#0;class#Operazione#0" expanded="false" />
-            <element signature="method#checkPrefixForCountries#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#cleanNumber#0;class#Operazione#0" expanded="false" />
-            <element signature="method#cleanNumber#0;class#Operazione#0" expanded="false" />
-            <element signature="docComment;method#getEmails#0;class#Operazione#0" expanded="false" />
-            <element signature="method#getEmails#0;class#Operazione#0" expanded="false" />
-            <element signature="e#12575#12583#0" expanded="true" />
-          </folding>
+        <state line="2" column="35" selection-start="28" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6426">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/OperazioneTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.43548387" vertical-offset="0" max-vertical-offset="7632">
+        <state line="25" column="20" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gTortoreto/OperazioneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="288" column="9" selection-start="10854" selection-end="10854" vertical-scroll-proportion="0.64285713" vertical-offset="4896" max-vertical-offset="8028">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#testExtractSimpleMail#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="method#testExtractSimpleMail#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="docComment;method#testExtractNumero199Apagamento#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="method#testExtractNumero199Apagamento#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="docComment;method#testExtractNumeriServizi#0;class#OperazioneTest#0" expanded="false" />
+            <element signature="method#testExtractNumeriServizi#0;class#OperazioneTest#0" expanded="false" />
             <element signature="docComment;method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
             <element signature="method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="docComment;method#testExtractURLwithSymbols#0;class#OperazioneTest#0" expanded="false" />
             <element signature="method#testExtractURLwithSymbols#0;class#OperazioneTest#0" expanded="false" />
           </folding>
         </state>
@@ -1024,6 +1212,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
