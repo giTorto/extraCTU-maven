@@ -1,4 +1,4 @@
-package gTortoreto;
+package gTorto;
 
 import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberMatch;
@@ -10,8 +10,12 @@ import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
-public class Operazione {
+/**
+ * This class allows to extract different kind of object from a string and returns an arraylist with
+ * the finded objects. First of all the class must be initialized with the object you want to extract.
+ * You can extract telephone numbers, e-mails and URLs
+ */
+public class Extractor {
     private String country ="";
     private String operazione;
     private String DEFAULT = "--";
@@ -42,7 +46,7 @@ public class Operazione {
      * @param countryCode the extract function will return telephone numbers from different country according to the given country code
      *                   e.g "IT","EN","DE",etc...
      */
-    public Operazione(String operazione, int minlunghezzaNumero, String countryCode) {
+    public Extractor(String operazione, int minlunghezzaNumero, String countryCode) {
         this.operazione = operazione;
         this.minimaLunghezzaNum = minlunghezzaNumero;
         this.country = countryCode;
@@ -56,7 +60,7 @@ public class Operazione {
      * @param countryCode the extract function will return telephone numbers from different country according to the given country code
      *                   e.g "IT","EN","DE",etc...
      */
-    public Operazione(String operazione, String countryCode) {
+    public Extractor(String operazione, String countryCode) {
         this.operazione = operazione;
         this.country = countryCode.toUpperCase();
     }
@@ -68,7 +72,7 @@ public class Operazione {
      * @param prefisso the extract function will return telephone numbers from different country according to the given dial code without '+'
      *                   e.g "39","44","1",etc...
      */
-    public Operazione(String operazione, Integer prefisso) {
+    public Extractor(String operazione, Integer prefisso) {
         this.operazione = operazione;
         this.country = prefixToCountryCode(prefisso);
     }
@@ -90,7 +94,7 @@ public class Operazione {
      * Accepted value for operazione are:"numbers","E-mails","URLs", otherwise the function extract won't work
      * @param operazione this parameter is essential to choose what kind of object the function extract will return for e-mails: "E-mails", for telephone numbers:"numbers" and for URLs:"URLs"
      */
-    public Operazione(String operazione){
+    public Extractor(String operazione){
 
         this.operazione = operazione;
     }
@@ -102,12 +106,12 @@ public class Operazione {
      */
     public ArrayList<String> extract(String text) {
         ArrayList<String> risultato = null;
-
-        if (this.operazione.equals("E-mails")) {
+        operazione = operazione.toLowerCase();
+        if (this.operazione.contains("mail")) {
             risultato = getEmails(text);
-        } else if (this.operazione.equals("numbers")) {
+        } else if (this.operazione.contains("numb") || this.operazione.contains("tel")) {
             risultato = getNumbers(text);
-        } else if (this.operazione.equals("URLs")) {
+        } else if (this.operazione.contains("url") || this.operazione.contains("web")) {
             risultato = getSites(text);
         }else{
             System.out.println("Wrong initialization, take a look to the constructor");

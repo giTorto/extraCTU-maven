@@ -67,30 +67,24 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="20" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="846">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Operazione.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gTortoreto/Operazione.java">
+      <file leaf-file-name="Extractor.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gTorto/Extractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="35" selection-start="28" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6426">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OperazioneTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gTortoreto/OperazioneTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="288" column="9" selection-start="10854" selection-end="10854" vertical-scroll-proportion="0.64285713" vertical-offset="4896" max-vertical-offset="8028">
+            <state line="110" column="29" selection-start="4922" selection-end="4922" vertical-scroll-proportion="0.045918368" vertical-offset="1098" max-vertical-offset="5778">
               <folding>
-                <element signature="method#testExtractNumeriServizi#0;class#OperazioneTest#0" expanded="false" />
-                <element signature="docComment;method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
-                <element signature="method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
-                <element signature="method#testExtractURLwithSymbols#0;class#OperazioneTest#0" expanded="false" />
+                <element signature="method#Extractor#0;class#Extractor#0" expanded="false" />
+                <element signature="docComment;method#Extractor#1;class#Extractor#0" expanded="false" />
+                <element signature="method#Extractor#1;class#Extractor#0" expanded="false" />
+                <element signature="docComment;method#Extractor#2;class#Extractor#0" expanded="false" />
+                <element signature="method#Extractor#2;class#Extractor#0" expanded="false" />
+                <element signature="docComment;method#prefixToCountryCode#0;class#Extractor#0" expanded="false" />
+                <element signature="method#prefixToCountryCode#0;class#Extractor#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -110,8 +104,12 @@
         <option value="$PROJECT_DIR$/ExtracTU.iml" />
         <option value="$PROJECT_DIR$/src/test/java/OperazioneTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Operazione.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/gTortoreto/OperazioneTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gTortoreto/extractor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gTortoreto/Extractor.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/gTorto/Extractor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/gTorto/ExtractorTest.java" />
       </list>
     </option>
   </component>
@@ -431,9 +429,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extraCT-noplug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtracTU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gTorto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extraCT-noplug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtracTU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extraCT-noplug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtracTU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gTorto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -452,6 +519,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -488,7 +556,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.extraCTU">
+  <component name="RunManager" selected="JUnit.testOperazione">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -546,9 +614,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
-    <configuration default="true" type="cloudbees-deploy" factoryName="CloudBees Deployment">
-      <method />
-    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -582,6 +647,9 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="cloudbees-deploy" factoryName="CloudBees Deployment">
       <method />
     </configuration>
     <configuration default="true" type="cloudfoundry-deploy" factoryName="CloudFoundry Deployment">
@@ -836,8 +904,8 @@
       <module name="ExtracTU" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="gTortoreto" />
-      <option name="MAIN_CLASS_NAME" value="gTortoreto.OperazioneTest" />
+      <option name="PACKAGE_NAME" value="gTorto" />
+      <option name="MAIN_CLASS_NAME" value="gTorto.ExtractorTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -912,11 +980,12 @@
       <workItem from="1394111862257" duration="5943000" />
       <workItem from="1394192430014" duration="771000" />
       <workItem from="1394195528516" duration="3976000" />
+      <workItem from="1394199608785" duration="1388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12603000" />
+    <option name="totallyTimeSpent" value="13991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
@@ -943,20 +1012,20 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -974,8 +1043,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1002,26 +1071,68 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="20" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gTorto/Extractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="35" selection-start="28" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="6570">
+          <folding>
+            <element signature="method#Extractor#0;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#Extractor#1;class#Extractor#0" expanded="false" />
+            <element signature="method#Extractor#1;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#Extractor#2;class#Extractor#0" expanded="false" />
+            <element signature="method#Extractor#2;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#prefixToCountryCode#0;class#Extractor#0" expanded="false" />
+            <element signature="method#prefixToCountryCode#0;class#Extractor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gTorto/ExtractorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="288" column="9" selection-start="10854" selection-end="10854" vertical-scroll-proportion="0.0" vertical-offset="5184" max-vertical-offset="8028">
+          <folding>
+            <element signature="method#testExtractNumeriServizi#0;class#ExtractorTest#0" expanded="false" />
+            <element signature="docComment;method#testExtractURL#0;class#ExtractorTest#0" expanded="false" />
+            <element signature="docComment;method#testExtractURLwithSymbols#0;class#ExtractorTest#0" expanded="false" />
+            <element signature="method#testExtractURLwithSymbols#0;class#ExtractorTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="89" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gTortoreto/Operazione.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gTorto/Extractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="59" selection-start="3178" selection-end="3178" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="6534">
-          <folding />
+          <folding>
+            <element signature="method#Extractor#0;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#Extractor#1;class#Extractor#0" expanded="false" />
+            <element signature="method#Extractor#1;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#Extractor#2;class#Extractor#0" expanded="false" />
+            <element signature="method#Extractor#2;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#prefixToCountryCode#0;class#Extractor#0" expanded="false" />
+            <element signature="method#prefixToCountryCode#0;class#Extractor#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gTortoreto/OperazioneTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/gTorto/ExtractorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="9054">
           <folding>
-            <element signature="method#testExtractNumeriServizi#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="docComment;method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="method#testExtractURLwithSymbols#0;class#OperazioneTest#0" expanded="false" />
+            <element signature="method#testExtractNumeriServizi#0;class#ExtractorTest#0" expanded="false" />
+            <element signature="docComment;method#testExtractURL#0;class#ExtractorTest#0" expanded="false" />
+            <element signature="docComment;method#testExtractURLwithSymbols#0;class#ExtractorTest#0" expanded="false" />
+            <element signature="method#testExtractURLwithSymbols#0;class#ExtractorTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1038,21 +1149,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gTortoreto/Operazione.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gTorto/Extractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="59" selection-start="3178" selection-end="3178" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="6534">
-          <folding />
+          <folding>
+            <element signature="method#Extractor#0;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#Extractor#1;class#Extractor#0" expanded="false" />
+            <element signature="method#Extractor#1;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#Extractor#2;class#Extractor#0" expanded="false" />
+            <element signature="method#Extractor#2;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#prefixToCountryCode#0;class#Extractor#0" expanded="false" />
+            <element signature="method#prefixToCountryCode#0;class#Extractor#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gTortoreto/OperazioneTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/gTorto/ExtractorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="7632">
           <folding>
-            <element signature="method#testExtractNumeriServizi#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="docComment;method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="method#testExtractURLwithSymbols#0;class#OperazioneTest#0" expanded="false" />
+            <element signature="method#testExtractNumeriServizi#0;class#ExtractorTest#0" expanded="false" />
+            <element signature="docComment;method#testExtractURL#0;class#ExtractorTest#0" expanded="false" />
+            <element signature="docComment;method#testExtractURLwithSymbols#0;class#ExtractorTest#0" expanded="false" />
+            <element signature="method#testExtractURLwithSymbols#0;class#ExtractorTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1069,21 +1188,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gTortoreto/Operazione.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gTorto/Extractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="35" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="2214">
-          <folding />
+          <folding>
+            <element signature="method#Extractor#0;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#Extractor#1;class#Extractor#0" expanded="false" />
+            <element signature="method#Extractor#1;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#Extractor#2;class#Extractor#0" expanded="false" />
+            <element signature="method#Extractor#2;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#prefixToCountryCode#0;class#Extractor#0" expanded="false" />
+            <element signature="method#prefixToCountryCode#0;class#Extractor#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gTortoreto/OperazioneTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/gTorto/ExtractorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="9" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="9054">
           <folding>
-            <element signature="method#testExtractNumeriServizi#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="docComment;method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="method#testExtractURLwithSymbols#0;class#OperazioneTest#0" expanded="false" />
+            <element signature="method#testExtractNumeriServizi#0;class#ExtractorTest#0" expanded="false" />
+            <element signature="docComment;method#testExtractURL#0;class#ExtractorTest#0" expanded="false" />
+            <element signature="docComment;method#testExtractURLwithSymbols#0;class#ExtractorTest#0" expanded="false" />
+            <element signature="method#testExtractURLwithSymbols#0;class#ExtractorTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1100,10 +1227,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gTortoreto/Operazione.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gTorto/Extractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="90" column="64" selection-start="2908" selection-end="2908" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="2214">
-          <folding />
+          <folding>
+            <element signature="method#Extractor#0;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#Extractor#1;class#Extractor#0" expanded="false" />
+            <element signature="method#Extractor#1;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#Extractor#2;class#Extractor#0" expanded="false" />
+            <element signature="method#Extractor#2;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#prefixToCountryCode#0;class#Extractor#0" expanded="false" />
+            <element signature="method#prefixToCountryCode#0;class#Extractor#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1124,33 +1259,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ExtracTU.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="558" selection-end="558" vertical-scroll-proportion="0.045918368" vertical-offset="126" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gTortoreto/Operazione.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="28" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6426">
-          <folding />
-        </state>
+        <state line="8" column="1" selection-start="558" selection-end="558" vertical-scroll-proportion="0.045918368" vertical-offset="126" max-vertical-offset="720" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="20" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="846">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gTortoreto/OperazioneTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/gTorto/ExtractorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="288" column="9" selection-start="10854" selection-end="10854" vertical-scroll-proportion="0.64285713" vertical-offset="4896" max-vertical-offset="8028">
+        <state line="77" column="13" selection-start="2773" selection-end="2773" vertical-scroll-proportion="0.045918368" vertical-offset="1332" max-vertical-offset="8334">
           <folding>
-            <element signature="method#testExtractNumeriServizi#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="docComment;method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="method#testExtractURL#0;class#OperazioneTest#0" expanded="false" />
-            <element signature="method#testExtractURLwithSymbols#0;class#OperazioneTest#0" expanded="false" />
+            <element signature="method#testExtractNumeriServizi#0;class#ExtractorTest#0" expanded="false" />
+            <element signature="docComment;method#testExtractURL#0;class#ExtractorTest#0" expanded="false" />
+            <element signature="docComment;method#testExtractURLwithSymbols#0;class#ExtractorTest#0" expanded="false" />
+            <element signature="method#testExtractURLwithSymbols#0;class#ExtractorTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gTorto/Extractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="29" selection-start="4922" selection-end="4922" vertical-scroll-proportion="0.045918368" vertical-offset="1098" max-vertical-offset="5778">
+          <folding>
+            <element signature="method#Extractor#0;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#Extractor#1;class#Extractor#0" expanded="false" />
+            <element signature="method#Extractor#1;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#Extractor#2;class#Extractor#0" expanded="false" />
+            <element signature="method#Extractor#2;class#Extractor#0" expanded="false" />
+            <element signature="docComment;method#prefixToCountryCode#0;class#Extractor#0" expanded="false" />
+            <element signature="method#prefixToCountryCode#0;class#Extractor#0" expanded="false" />
           </folding>
         </state>
       </provider>

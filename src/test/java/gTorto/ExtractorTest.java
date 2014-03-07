@@ -1,4 +1,4 @@
-package gTortoreto;
+package gTorto;
 
 import org.junit.Test;
 
@@ -6,9 +6,9 @@ import java.util.ArrayList;
 
 
 
-public class OperazioneTest {
-    Operazione opmails = new Operazione("E-mails");
-    Operazione opUrls;
+public class ExtractorTest {
+    Extractor opmails = new Extractor("E-mails");
+    Extractor opUrls;
 
     /**
      * The test attempt to find an e-mail at the beginning of the given text and another at the end
@@ -58,11 +58,11 @@ public class OperazioneTest {
         ArrayList<String> mails = opmails.extract(testo);
 
         for (String email : mails){
-      //      System.out.print(email); //questa va considerata un email buona??
+          //System.out.print(email); //questa va considerata un email buona??
             assert( email.equals("gooHAHAHd-sdf-sf.sss@it.it") ||
                     email.equals("eSmaSSil.sdf@sdfSDs.it")
             ) ;
-        //    System.out.println(" ACCEPTED\n");
+            //System.out.println(" ACCEPTED\n");
         }
     }
 
@@ -81,7 +81,7 @@ public class OperazioneTest {
             //System.out.print(email);
             assert(email.equals("1eSma555SSil.sdf343+1@sdfs.it") ||
                     email.equals("sdfSdf.s.d.gooHA1HAHd-sdf-sf.sss123@it.it")) ;
-           // System.out.println(" ACCEPTED\n");
+           //System.out.println(" ACCEPTED\n");
         }
     }
 
@@ -227,7 +227,7 @@ public class OperazioneTest {
     public void testExtractSomeNumbers() throws Exception {
 
         String testo = "\"+34 99899 this +343495669229 and 9394959691 9 or 0039 1234567891 when +3912345678901\" ";
-        Operazione opNumbers = new Operazione("numbers");
+        Extractor opNumbers = new Extractor("numbers");
         
         ArrayList<String> numbers = opNumbers.extract(testo);
 
@@ -250,14 +250,14 @@ public class OperazioneTest {
     public void testExtractNumbersAttachedToText() throws Exception {
 
         String testo = "\"+34 99899 here is+343495669229\\hahahaha9394959691\" ";
-        Operazione opNumbers = new Operazione("numbers");
+        Extractor opNumbers = new Extractor("numbers");
         
         ArrayList<String> numbers = opNumbers.extract(testo);
 //        assert(numbers.size()>0);
         for (String value : numbers) {
-            System.out.print(value);
+            //System.out.print(value);
             assert(value.equals("+343495669229"));
-            System.out.print(" ACCEPTED\n");
+            //System.out.print(" ACCEPTED\n");
         }
     }
 
@@ -270,7 +270,7 @@ public class OperazioneTest {
     public void testExtractDifferentNearNumber() throws Exception {
         String testo = "\"0464/454154-108 (+34 349.566.9229)\\939-4959-691 934567890()2324.234 5 2,0039 (123) 4567891 dsf +39   12345678901\" ";
 
-        Operazione opNumbers = new Operazione("numbers");
+        Extractor opNumbers = new Extractor("numbers");
         
         ArrayList<String> numbers = opNumbers.extract(testo);
         assert(numbers.size()>0);
@@ -296,7 +296,7 @@ public class OperazioneTest {
     @Test
     public void testExtractNumberToAvoid() throws Exception {
         String testo = "\"http://www.crushsite.it/it/cinema/2013/flight_6009_6058-6134-6160.html,\" ";
-        Operazione opNumbers = new Operazione("numbers");
+        Extractor opNumbers = new Extractor("numbers");
         
         ArrayList<String> numbers = opNumbers.extract(testo);
 
@@ -316,7 +316,7 @@ public class OperazioneTest {
     public void testExtractNumberToSplit() throws Exception {
 
         String testo = "\",tel. 0461.235331 - 349/8673463\" ";
-        Operazione opNumbers = new Operazione("numbers","IT");
+        Extractor opNumbers = new Extractor("numbers","IT");
 
         ArrayList<String> numbers = opNumbers.extract(testo);
 
@@ -338,7 +338,7 @@ public class OperazioneTest {
     public void testExtractNumberOf13() throws Exception {
 
         String testo = "   \"c9f61b08f06764438220745483a253789117af0d  obbligatoria 0464/454154-108 ";
-        Operazione opNumbers = new Operazione("numbers","IT");
+        Extractor opNumbers = new Extractor("numbers","IT");
         
         ArrayList<String> numbers = opNumbers.extract(testo);
         assert(numbers.size()==1);
@@ -359,7 +359,7 @@ public class OperazioneTest {
     public void testExtractNumberWrongDate() throws Exception {
 
         String testo = "   \"obbligatoria (2006-2011).12";
-        Operazione opNumbers = new Operazione("numbers","IT");
+        Extractor opNumbers = new Extractor("numbers","IT");
         
         ArrayList<String> numbers = opNumbers.extract(testo);
         assert(numbers.size()==0);
@@ -373,7 +373,7 @@ public class OperazioneTest {
     @Test
     public void testExtractNumberSplitted() throws Exception{
         String testo = "this is 0461/568626-339.5669229, 051.3452396-321/9332229;";
-        Operazione opNumbers = new Operazione("numbers","IT");
+        Extractor opNumbers = new Extractor("numbers","IT");
         
         ArrayList<String> numbers = opNumbers.extract(testo);
        assert(numbers.size()==0);
@@ -389,7 +389,7 @@ public class OperazioneTest {
     @Test
     public void testExtractEccezioneNumeroItaliano() throws Exception{
         String testo = "this is a real number +41 91 641 91 41 ";
-        Operazione opNumbers = new Operazione("numbers","IT");
+        Extractor opNumbers = new Extractor("numbers","IT");
         
         ArrayList<String> numbers = opNumbers.extract(testo);
         assert(numbers.size()==1);
@@ -408,7 +408,7 @@ public class OperazioneTest {
     @Test
     public void testExtractNumero199Apagamento() throws Exception{
         String testo = "(1996-2012).8";
-        Operazione opNumbers = new Operazione("numbers","IT");
+        Extractor opNumbers = new Extractor("numbers","IT");
         
         ArrayList<String> numbers = opNumbers.extract(testo);
         assert(numbers.size()>0);
@@ -427,7 +427,7 @@ public class OperazioneTest {
     @Test
     public void testExtractNumeriServizi() throws Exception{
         String testo = "45592 48118 ";
-        Operazione opNumbers = new Operazione("numbers",39);
+        Extractor opNumbers = new Extractor("numbers",39);
         ArrayList<String> numbers = opNumbers.extract(testo);
         
         assert(numbers.size()==0);
@@ -451,7 +451,7 @@ public class OperazioneTest {
         String testo = "www.google.com/en http:google.com  http://google.com https://google.com,www.google.com\n" +
                 "http://www.google.com/it, https://www.google.com/de";
 
-        opUrls = new Operazione("URLs");
+        opUrls = new Extractor("URLs");
         ArrayList<String>risultato = opUrls.extract(testo);
         assert(risultato.size()==7);
 
@@ -480,12 +480,12 @@ public class OperazioneTest {
                 "http://www.joomla.it/images/stories/articoli/2012/google_penguin_update.jpg," +
                 "http://upload.wikimedia.org/wikipedia/commons/2/20/Ursus_maritimus_us_fish.jpg ";
 
-        opUrls = new Operazione("URLs");
+        opUrls = new Extractor("URLs");
         ArrayList<String> risultato = opUrls.extract(testo);
         assert(risultato.size()==5);
 
         for(String URL: risultato){
-            //System.out.print(URL);
+           // System.out.print(URL);
             assert( URL.equals("http://www.youtube.com/watch?v=LV1Ymtz1a9w&list=RD8HrmAgYE-6k")||
                     URL.equals("http://blogs.independent.co.uk/wp-content/uploads/2012/12/google-zip.jpg")||
                     URL.equals("http://cdn2.business2community.com/wp-content/uploads/2013/04/google-.jpg")||
